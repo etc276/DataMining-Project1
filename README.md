@@ -107,24 +107,26 @@ IBM Quest Data Generator.exe" lit -ntrans 1 -tlen 10 -nitems 1 -npats 100 -fname
 
 ### Results Comparison
 
+> comparison for time
+
 * fixed min_support, change number of transactions (on IBM data)
 
 |  | Aprior | FP-growth |
 | -------- | -------- | -------- |
-| 1000 | 0.04040 | 0.01005 |
-| 2000 | 0.07883 | 0.01990 |
-| 3000 | 0.12744 | 0.03192 |
+| 1000 | 0.04040s | 0.01005s |
+| 2000 | 0.07883s | 0.01990s |
+| 3000 | 0.12744s | 0.03192s |
 
 * fix number of transactions, change min_support (on IBM data)
 
 |  | Aprior | FP-growth |
 | -------- | -------- | -------- |
-| 0.02 | 3.46813 | 0.03198 |
-| 0.05 | 0.92168 | 0.03214 |
-| 0.07 | 0.46378 | 0.03173 |
-| 0.10 | 0.13886 | 0.03218 |
-| 0.12 | 0.09789 | 0.03145 |
-| 0.15 | 0.09113 | 0.03152 |
+| 0.02 | 3.46813s | 0.03198s |
+| 0.05 | 0.92168s | 0.03214s |
+| 0.07 | 0.46378s | 0.03173s |
+| 0.10 | 0.13886s | 0.03218s |
+| 0.12 | 0.09789s | 0.03145s |
+| 0.15 | 0.09113s | 0.03152s |
 
 
 ### Discussion
